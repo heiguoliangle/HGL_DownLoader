@@ -1,0 +1,16 @@
+PODS:
+  - DownLoader (0.1.0)
+
+DEPENDENCIES:
+  - DownLoader (from `../`)
+
+EXTERNAL SOURCES:
+  DownLoader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DownLoader: b1b7adcae6d196066fab0494c753f533f5fe7473
+
+PODFILE CHECKSUM: 477860cb40aef37f286fd12b452e377863648761
+
+COCOAPODS: 1.2.0
