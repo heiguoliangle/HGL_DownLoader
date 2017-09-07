@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DownLoader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DownLoader.'
+  s.summary          = 'DownLoader.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DownLoader 第一次创建下载器,后续再维护
                        DESC
 
-  s.homepage         = 'https://github.com/heiguoliangle/DownLoader'
+  s.homepage         = 'https://github.com/heiguoliangle/HGL_DownLoader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'heiguoliangle' => 'heiguoliangle@163.com' }
-  s.source           = { :git => 'https://github.com/heiguoliangle/DownLoader.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/heiguoliangle/HGL_DownLoader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

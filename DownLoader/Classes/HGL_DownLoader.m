@@ -69,12 +69,17 @@
         self.state = HGL_DownLoaderSuccess;
         return;
     }
+    _tempFileSize = [HGL_DownLoaderFileTool fileSzieWithPath:self.temFilePath];
+    
+    
+    
     
     if ([url isEqual:self.task.originalRequest.URL]) {
         
         if (self.state == HGL_DownLoaderPause) {
-            [self resumeTask];
-            
+//            [self resumeTask];
+            [self downloadWithURL:url offset:_tempFileSize];
+            return;
         }
     }
     
@@ -82,9 +87,6 @@
 //    [self cancelTask];
     
     self.state = HGL_DownLoaderPause;
-    
-    _tempFileSize = [HGL_DownLoaderFileTool fileSzieWithPath:self.temFilePath];
-    
     [self downloadWithURL:url offset:_tempFileSize];
     
 }
@@ -112,9 +114,16 @@
 }
 
 -(void)cancel{
-    [self.session invalidateAndCancel];
-    self.session = nil;
-    [HGL_DownLoaderFileTool removeFileAtPath: self.temFilePath];
+    
+    
+    if (self.state == HGL_DownLoaderDowning) {
+        
+        [self.session invalidateAndCancel];
+        self.session = nil;
+        [HGL_DownLoaderFileTool removeFileAtPath: self.temFilePath];
+    }else{
+        NSLog(@"现在还没有下载任务");
+    }
     
 }
 
