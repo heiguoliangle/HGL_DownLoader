@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'DownLoader'
 ```
 
+### 0.1.0版本
+1. 添加了单任务下载器,本地管理文件,缓冲文件简单加密处理
+
+
 ## Author
 
 heiguoliangle, heiguoliangle@163.com
@@ -27,3 +31,5 @@ heiguoliangle, heiguoliangle@163.com
 ## License
 
 DownLoader is available under the MIT license. See the LICENSE file for more info.
+
+
