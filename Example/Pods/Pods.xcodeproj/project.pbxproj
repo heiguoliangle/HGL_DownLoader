@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22A778F0CCC9B6E7AB91B3C508B73616 /* DownLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1176841AA0B1880D2321A3CAE72BD59 /* DownLoader-dummy.m */; };
+		0E562283E143293E208FF2F0F63F8082 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B40A80F26912B53F44133EB594B8C46D /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23F03AC565AE412EABA738B2D7FBF629 /* Pods-DownLoader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2D0D4BC3327B82611C72999011101 /* Pods-DownLoader_Tests-dummy.m */; };
-		32FB1E8322558592A89A19D25FE4AABE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AE05F9C7627E21ABC74590EF88F950 /* ReplaceMe.m */; };
+		2E5BBCF6563413C98560D5150FB52B8C /* DownLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E5214297F2C3053A97A60928731AF9 /* DownLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8280ED71160CEBE2E464E960B01E6B /* HGL_DownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7549D45270D6A499E6788FA2159940 /* HGL_DownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3645B96E59AE0B8D9C17A02B8349B511 /* Pods-DownLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F097C456CE00FF4FCA16003E0296BF /* Pods-DownLoader_Example-dummy.m */; };
+		3FA5BF600829B18E72DB1B0C2BE0407C /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B27E60F82F8CCD615A131C918C2603 /* NSString+MD5.m */; };
+		546C8609B479B68F20E1AF14A3E15166 /* DownLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9132E3073C39E8109B716AE1DB36AB56 /* DownLoader-dummy.m */; };
 		61D77A1B82AA758F875A224F1E02DDCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6B304E9ED1453FAEAED5FE2975F41DA9 /* Pods-DownLoader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 040FDBB17AF9E9E6F463C88BEDE61409 /* Pods-DownLoader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A56FA3278F674830326F593633C38853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7CC811A865A8434FA686956607DEC3E3 /* HGL_DownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF0742D52D374B5C94FF347F4FB6767 /* HGL_DownLoaderFileTool.m */; };
+		8DB5FF3D4C64F6D1C9D120E18B4B7278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A7EFA9E35A9C2E91C9EB8D817F34190C /* HGL_DownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B728C4A3168214455CE3A13EC57D08 /* HGL_DownLoader.m */; };
 		C95F7832A1DB76858666337F5E5E117C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D91561539D54CAAB276C9B6095BBCC61 /* HGL_DownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F32F06B5238C58731BE78E9E64E8AE18 /* HGL_DownLoaderFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED7E833E9EE33D916D183D152EC5B132 /* Pods-DownLoader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F6F31B0260D667D7ADAAA629B69FD3 /* Pods-DownLoader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F997678899FB4A93B2E498715E2B7E4F /* DownLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CEDED253842009D716FF6A5D93D9DA /* DownLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,18 +29,17 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EDD13CA15C7A3C9FF0B871E64BA5C0B;
+			remoteGlobalIDString = 8E21469A5D67F6297E7B57071B5F9775;
 			remoteInfo = DownLoader;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		040FDBB17AF9E9E6F463C88BEDE61409 /* Pods-DownLoader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownLoader_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0D5D163DC9028E283640DCC79592DB5E /* DownLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownLoader.xcconfig; sourceTree = "<group>"; };
 		1C259ECFE471C1E38D00263E96F459BB /* Pods_DownLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownLoader_Example.framework; path = "Pods-DownLoader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F097C456CE00FF4FCA16003E0296BF /* Pods-DownLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownLoader_Example-dummy.m"; sourceTree = "<group>"; };
 		3BE93A8922F3A57223EACD87DC267073 /* Pods-DownLoader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownLoader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E2DD90850976314913F52C6359C9D25 /* DownLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DownLoader.modulemap; sourceTree = "<group>"; };
+		5E7549D45270D6A499E6788FA2159940 /* HGL_DownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGL_DownLoader.h; path = DownLoader/Classes/HGL_DownLoader.h; sourceTree = "<group>"; };
 		6004F387E0520D1DBD6CC607F5C6803C /* Pods-DownLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		65F6F31B0260D667D7ADAAA629B69FD3 /* Pods-DownLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownLoader_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -46,38 +50,44 @@
 		7CD2379BFCD08A73FE884584C4E12B27 /* Pods-DownLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7F5CD347F8F26C59CF6DA496479E12BF /* Pods-DownLoader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownLoader_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8190BF2069826D046E7E35B88D7D94BB /* DownLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DownLoader.framework; path = DownLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83CEDED253842009D716FF6A5D93D9DA /* DownLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoader-umbrella.h"; sourceTree = "<group>"; };
 		8D41F1929B838DDF7B4D861E8AAE90EA /* Pods-DownLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9132E3073C39E8109B716AE1DB36AB56 /* DownLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownLoader-dummy.m"; sourceTree = "<group>"; };
 		938DC11DF4EC491144A26DDDDC7F654B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A4C521C47339707B096C8972468062C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34F26B5685CF2E6F9475D3CAA6974B8 /* DownLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoader-prefix.pch"; sourceTree = "<group>"; };
 		A809CF0028F650F91734BC910B0AABFD /* Pods-DownLoader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownLoader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9B728C4A3168214455CE3A13EC57D08 /* HGL_DownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGL_DownLoader.m; path = DownLoader/Classes/HGL_DownLoader.m; sourceTree = "<group>"; };
 		B0904F1EA84C7D1DAB23304443AFC287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6AE05F9C7627E21ABC74590EF88F950 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		BAFD0B54450EAEE16F2616355BC7D6D3 /* DownLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoader-prefix.pch"; sourceTree = "<group>"; };
+		B1E5214297F2C3053A97A60928731AF9 /* DownLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownLoader-umbrella.h"; sourceTree = "<group>"; };
+		B40A80F26912B53F44133EB594B8C46D /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "DownLoader/Classes/NSString+MD5.h"; sourceTree = "<group>"; };
 		C0D086DA7A0031C07A47516B4C47D949 /* Pods-DownLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DownLoader_Tests.modulemap"; sourceTree = "<group>"; };
-		C1176841AA0B1880D2321A3CAE72BD59 /* DownLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownLoader-dummy.m"; sourceTree = "<group>"; };
 		C197CEA446C3144D36CB3A6BF62F69AD /* Pods-DownLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CB1499B36A288FEA213A47792A635703 /* DownLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DownLoader.modulemap; sourceTree = "<group>"; };
 		D6477C36A82DDB18E683B529042E6F4C /* Pods-DownLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DFFD5F3525673724D2AFC05DE7C7E11A /* Pods-DownLoader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DownLoader_Example.modulemap"; sourceTree = "<group>"; };
+		E0B27E60F82F8CCD615A131C918C2603 /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "DownLoader/Classes/NSString+MD5.m"; sourceTree = "<group>"; };
+		F295D4AAECA6C35482BCEFF5F119F8BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32F06B5238C58731BE78E9E64E8AE18 /* HGL_DownLoaderFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGL_DownLoaderFileTool.h; path = DownLoader/Classes/HGL_DownLoaderFileTool.h; sourceTree = "<group>"; };
 		F39225CF1F2F92886119E069A552649C /* Pods-DownLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F42C0995D201ECB581831D5C20A1BBBB /* Pods-DownLoader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownLoader_Tests-resources.sh"; sourceTree = "<group>"; };
+		F612D7E010A1E1D6F5C35FC2522D1968 /* DownLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownLoader.xcconfig; sourceTree = "<group>"; };
+		FFF0742D52D374B5C94FF347F4FB6767 /* HGL_DownLoaderFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGL_DownLoaderFileTool.m; path = DownLoader/Classes/HGL_DownLoaderFileTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D4CCC4FF293BB03236EBCC5CCA01BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB5FF3D4C64F6D1C9D120E18B4B7278 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C918A8BA662C388C5FF7FDC91A85A644 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C95F7832A1DB76858666337F5E5E117C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D18A183E5D5CDA32DD9C12432357DECE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A56FA3278F674830326F593633C38853 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,15 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3769E0C9627074B924436746857295D1 /* DownLoader */ = {
-			isa = PBXGroup;
-			children = (
-				71A2C3C5057C79A547C52616A1CDDF6E /* Classes */,
-			);
-			name = DownLoader;
-			path = DownLoader;
-			sourceTree = "<group>";
-		};
 		3D9F8B86957C0B69CB5200B5385D3E07 /* Pods-DownLoader_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,31 +120,18 @@
 			path = "Target Support Files/Pods-DownLoader_Example";
 			sourceTree = "<group>";
 		};
-		71A2C3C5057C79A547C52616A1CDDF6E /* Classes */ = {
+		3F700A3D1DA829CACDEC588BCE75FF5D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B6AE05F9C7627E21ABC74590EF88F950 /* ReplaceMe.m */,
+				CB1499B36A288FEA213A47792A635703 /* DownLoader.modulemap */,
+				F612D7E010A1E1D6F5C35FC2522D1968 /* DownLoader.xcconfig */,
+				9132E3073C39E8109B716AE1DB36AB56 /* DownLoader-dummy.m */,
+				A34F26B5685CF2E6F9475D3CAA6974B8 /* DownLoader-prefix.pch */,
+				B1E5214297F2C3053A97A60928731AF9 /* DownLoader-umbrella.h */,
+				F295D4AAECA6C35482BCEFF5F119F8BB /* Info.plist */,
 			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		741ED7C8C610915C4118EA472753DC72 /* DownLoader */ = {
-			isa = PBXGroup;
-			children = (
-				3769E0C9627074B924436746857295D1 /* DownLoader */,
-				7B3D3F383E91E8A07C109688C78F6F6F /* Support Files */,
-			);
-			name = DownLoader;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7A4F687FFE4505F1DF27D9AA7F69783D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				741ED7C8C610915C4118EA472753DC72 /* DownLoader */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/DownLoader";
 			sourceTree = "<group>";
 		};
 		7ADB87F6CE548F1BD12832BB7A53F646 /* Products */ = {
@@ -156,26 +144,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B3D3F383E91E8A07C109688C78F6F6F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E2DD90850976314913F52C6359C9D25 /* DownLoader.modulemap */,
-				0D5D163DC9028E283640DCC79592DB5E /* DownLoader.xcconfig */,
-				C1176841AA0B1880D2321A3CAE72BD59 /* DownLoader-dummy.m */,
-				BAFD0B54450EAEE16F2616355BC7D6D3 /* DownLoader-prefix.pch */,
-				83CEDED253842009D716FF6A5D93D9DA /* DownLoader-umbrella.h */,
-				9A4C521C47339707B096C8972468062C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DownLoader";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7A4F687FFE4505F1DF27D9AA7F69783D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E53DBD0D5895654D59A814DB5146D8B4 /* Pods */,
 				7ADB87F6CE548F1BD12832BB7A53F646 /* Products */,
 				D9AD41BF15CE796A529072D39B8465E9 /* Targets Support Files */,
 			);
@@ -197,6 +171,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D7B0DACE152C4A7D64EEB80AE5753532 /* DownLoader */ = {
+			isa = PBXGroup;
+			children = (
+				5E7549D45270D6A499E6788FA2159940 /* HGL_DownLoader.h */,
+				A9B728C4A3168214455CE3A13EC57D08 /* HGL_DownLoader.m */,
+				F32F06B5238C58731BE78E9E64E8AE18 /* HGL_DownLoaderFileTool.h */,
+				FFF0742D52D374B5C94FF347F4FB6767 /* HGL_DownLoaderFileTool.m */,
+				B40A80F26912B53F44133EB594B8C46D /* NSString+MD5.h */,
+				E0B27E60F82F8CCD615A131C918C2603 /* NSString+MD5.m */,
+				3F700A3D1DA829CACDEC588BCE75FF5D /* Support Files */,
+			);
+			name = DownLoader;
+			path = DownLoader;
+			sourceTree = "<group>";
+		};
 		D9AD41BF15CE796A529072D39B8465E9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +193,14 @@
 				FE0147CD2EEBA69E776354E0BB46D247 /* Pods-DownLoader_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E53DBD0D5895654D59A814DB5146D8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7B0DACE152C4A7D64EEB80AE5753532 /* DownLoader */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FE0147CD2EEBA69E776354E0BB46D247 /* Pods-DownLoader_Tests */ = {
@@ -227,11 +224,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3716AC31178B0A78EF1F7B0FEFDE2C18 /* Headers */ = {
+		B768309C5ED3975D0BCB7C79786EB5E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F997678899FB4A93B2E498715E2B7E4F /* DownLoader-umbrella.h in Headers */,
+				2E5BBCF6563413C98560D5150FB52B8C /* DownLoader-umbrella.h in Headers */,
+				2E8280ED71160CEBE2E464E960B01E6B /* HGL_DownLoader.h in Headers */,
+				D91561539D54CAAB276C9B6095BBCC61 /* HGL_DownLoaderFileTool.h in Headers */,
+				0E562283E143293E208FF2F0F63F8082 /* NSString+MD5.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +254,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9EDD13CA15C7A3C9FF0B871E64BA5C0B /* DownLoader */ = {
+		8E21469A5D67F6297E7B57071B5F9775 /* DownLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68E0A0878CD47CBFD2B490107CDD634F /* Build configuration list for PBXNativeTarget "DownLoader" */;
+			buildConfigurationList = 4C2AEE136FF1AD4CA8AF0C04C4B11761 /* Build configuration list for PBXNativeTarget "DownLoader" */;
 			buildPhases = (
-				45EF545EA5C359B651243F2661B2E9C6 /* Sources */,
-				D18A183E5D5CDA32DD9C12432357DECE /* Frameworks */,
-				3716AC31178B0A78EF1F7B0FEFDE2C18 /* Headers */,
+				E0AFA67FA9B241F701A929870193202D /* Sources */,
+				1D4CCC4FF293BB03236EBCC5CCA01BF6 /* Frameworks */,
+				B768309C5ED3975D0BCB7C79786EB5E2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -327,7 +327,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EDD13CA15C7A3C9FF0B871E64BA5C0B /* DownLoader */,
+				8E21469A5D67F6297E7B57071B5F9775 /* DownLoader */,
 				C601629CDD8AFB611EB4392A6C24DC75 /* Pods-DownLoader_Example */,
 				CE48A668989524E9D07F5D6257D410BB /* Pods-DownLoader_Tests */,
 			);
@@ -335,15 +335,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45EF545EA5C359B651243F2661B2E9C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22A778F0CCC9B6E7AB91B3C508B73616 /* DownLoader-dummy.m in Sources */,
-				32FB1E8322558592A89A19D25FE4AABE /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BBDF2F21FEB00FA9003A328D89CB979 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,13 +351,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0AFA67FA9B241F701A929870193202D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546C8609B479B68F20E1AF14A3E15166 /* DownLoader-dummy.m in Sources */,
+				A7EFA9E35A9C2E91C9EB8D817F34190C /* HGL_DownLoader.m in Sources */,
+				7CC811A865A8434FA686956607DEC3E3 /* HGL_DownLoaderFileTool.m in Sources */,
+				3FA5BF600829B18E72DB1B0C2BE0407C /* NSString+MD5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		6E8BEB6F81D8EC92C40399B4D1A22C38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DownLoader;
-			target = 9EDD13CA15C7A3C9FF0B871E64BA5C0B /* DownLoader */;
+			target = 8E21469A5D67F6297E7B57071B5F9775 /* DownLoader */;
 			targetProxy = 4476DBA306D7FD14E8027A28E6A931CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -455,6 +457,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		54BF2EBCA564199DBBB35ED39CFA4467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F612D7E010A1E1D6F5C35FC2522D1968 /* DownLoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DownLoader/DownLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DownLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DownLoader/DownLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DownLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -608,9 +642,9 @@
 			};
 			name = Release;
 		};
-		F0150029171E472F401C563D2DA3C70A /* Debug */ = {
+		EE0F4F89988D3D9E85C8F2F1FA8D36A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D5D163DC9028E283640DCC79592DB5E /* DownLoader.xcconfig */;
+			baseConfigurationReference = F612D7E010A1E1D6F5C35FC2522D1968 /* DownLoader.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -640,38 +674,6 @@
 			};
 			name = Debug;
 		};
-		FA563A157DFB0AAEF2924F98FD42F64B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D5D163DC9028E283640DCC79592DB5E /* DownLoader.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DownLoader/DownLoader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DownLoader/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DownLoader/DownLoader.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DownLoader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -693,11 +695,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68E0A0878CD47CBFD2B490107CDD634F /* Build configuration list for PBXNativeTarget "DownLoader" */ = {
+		4C2AEE136FF1AD4CA8AF0C04C4B11761 /* Build configuration list for PBXNativeTarget "DownLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0150029171E472F401C563D2DA3C70A /* Debug */,
-				FA563A157DFB0AAEF2924F98FD42F64B /* Release */,
+				EE0F4F89988D3D9E85C8F2F1FA8D36A0 /* Debug */,
+				54BF2EBCA564199DBBB35ED39CFA4467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

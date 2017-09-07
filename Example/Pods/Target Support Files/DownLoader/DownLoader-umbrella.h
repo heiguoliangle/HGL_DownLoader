@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "HGL_DownLoader.h"
+#import "HGL_DownLoaderFileTool.h"
+#import "NSString+MD5.h"
 
 FOUNDATION_EXPORT double DownLoaderVersionNumber;
 FOUNDATION_EXPORT const unsigned char DownLoaderVersionString[];

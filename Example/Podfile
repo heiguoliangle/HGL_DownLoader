@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'DownLoader_Example' do
-  pod 'DownLoader', :path => '../'
+  pod 'DownLoader'
 
   target 'DownLoader_Tests' do
     inherit! :search_paths

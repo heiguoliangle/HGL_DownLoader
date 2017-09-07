@@ -2,15 +2,11 @@ PODS:
   - DownLoader (0.1.0)
 
 DEPENDENCIES:
-  - DownLoader (from `../`)
-
-EXTERNAL SOURCES:
-  DownLoader:
-    :path: "../"
+  - DownLoader
 
 SPEC CHECKSUMS:
-  DownLoader: b1b7adcae6d196066fab0494c753f533f5fe7473
+  DownLoader: 43e58352f1a8502958ca90cf2673c9827496c1ef
 
-PODFILE CHECKSUM: 477860cb40aef37f286fd12b452e377863648761
+PODFILE CHECKSUM: 889bba9bab7b598c0ac9b988e6bf7575a8822636
 
 COCOAPODS: 1.2.0
