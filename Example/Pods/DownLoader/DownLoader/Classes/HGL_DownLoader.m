@@ -114,9 +114,16 @@
 }
 
 -(void)cancel{
-    [self.session invalidateAndCancel];
-    self.session = nil;
-    [HGL_DownLoaderFileTool removeFileAtPath: self.temFilePath];
+    
+    
+    if (self.state == HGL_DownLoaderDowning) {
+        
+        [self.session invalidateAndCancel];
+        self.session = nil;
+        [HGL_DownLoaderFileTool removeFileAtPath: self.temFilePath];
+    }else{
+        NSLog(@"现在还没有下载任务");
+    }
     
 }
 
